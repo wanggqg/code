@@ -37,6 +37,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.bt_iamge:
+                //这里获取一张图片
                 Intent intent = new Intent(Intent.ACTION_PICK);
 
                 break;
